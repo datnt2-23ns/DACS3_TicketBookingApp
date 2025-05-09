@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TicketBookingApp</string>
+    <string name="subtitle_splash">Dễ dàng tìm kiếm và đặt chuyến bay ước mơ. Giúp\nbạn sỡ hữu vé máy bay chỉ với vài thao tác đơn giản.</string>
+    <string name="dashboard_title">Hãy cùng khám phá thế giới với chúng tôi!!!</string>
+</resources>
