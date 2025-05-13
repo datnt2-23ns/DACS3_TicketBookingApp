@@ -85,4 +85,8 @@ dependencies {
     implementation("com.google.firebase:firebase-auth:23.1.0")
 
     implementation("androidx.compose.material:material-icons-extended:1.5.4")
+
+    implementation("com.google.zxing:core:3.5.2")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
 }

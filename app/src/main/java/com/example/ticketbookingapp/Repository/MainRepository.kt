@@ -180,4 +180,25 @@ class MainRepository {
             Result.failure(e)
         }
     }
+
+    // Xóa thông tin đặt vé
+    suspend fun deleteBooking(username: String, flightId: String, seats: String): Result<Unit> {
+        return try {
+            val bookingSnapshot = bookingsRef.child(username).get().await()
+            if (bookingSnapshot.exists()) {
+                for (child in bookingSnapshot.children) {
+                    val booking = child.getValue(BookingModel::class.java)
+                    if (booking != null && booking.flightId == flightId && booking.seats == seats) {
+                        child.ref.removeValue().await()
+                        return Result.success(Unit)
+                    }
+                }
+                Result.failure(Exception("Booking not found for flightId: $flightId, seats: $seats"))
+            } else {
+                Result.failure(Exception("Bookings node for user $username is empty"))
+            }
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
 }

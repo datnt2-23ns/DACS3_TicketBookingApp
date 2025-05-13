@@ -21,5 +21,6 @@ data class FlightModel(
     @PropertyName("time") var Time: String = "",
     @PropertyName("to") var To: String = "",
     @PropertyName("toShort") var ToShort: String = "",
-    @PropertyName("bookingTime") var bookingTime: String = ""
+    @PropertyName("bookingTime") var bookingTime: String = "",
+    @PropertyName("status") var status: String = "SCHEDULED" // Thêm trường status
 ) : Serializable

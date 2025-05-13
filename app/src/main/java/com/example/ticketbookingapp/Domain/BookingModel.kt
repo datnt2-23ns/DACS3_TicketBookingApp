@@ -17,5 +17,6 @@ data class BookingModel(
     val fromShort: String = "",
     val toShort: String = "",
     val time: String = "",
-    val classSeat: String = ""
+    val classSeat: String = "",
+    val status: String = "SCHEDULED" // Thêm trường status, mặc định là SCHEDULED
 ) : Serializable

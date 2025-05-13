@@ -211,7 +211,8 @@ fun MainScreen(user: UserModel) {
                         Column(modifier = Modifier.weight(1f)) {
                             BlueTitle("Hạng ghế")
                             Spacer(modifier = Modifier.height(10.dp))
-                            val classItems = listOf("Business", "First", "Economy")
+//                            val classItems = listOf("Business", "First", "Economy")
+                            val classItems = listOf("Thương gia", "Hạng nhất", "Phổ thông")
                             DropDownList(
                                 items = classItems,
                                 loadingIcon = painterResource(R.drawable.seat_black_ic),

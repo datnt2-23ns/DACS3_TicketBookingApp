@@ -2,221 +2,235 @@
   "Bookings": {
     "dante_123": {
       "booking1": {
-        "airlineLogo": "https://res.cloudinary.com/dkikc5ywq/image/upload/v1740740063/DeltaAirline_cbklxb.png",
-        "airlineName": "Delta Airlines",
+        "airlineLogo": "https://res.cloudinary.com/deffwclhn/image/upload/v1747106282/logoVietNamAirlines_gmjwvb.png",
+        "airlineName": "Vietnam Airlines",
         "arriveTime": "2h 45m",
         "bookingDate": "16:42 - 03/05/2025",
-        "classSeat": "Business class",
-        "date": "01 jun, 2025",
+        "classSeat": "Hạng thương gia",
+        "date": "20 may, 2025",
         "flightId": "flight_000",
-        "from": "NewYork",
-        "fromShort": "JFK",
+        "from": "Nội Bài",
+        "fromShort": "HAN",
         "price": 341.2,
         "seats": "B2,C2",
         "time": "12:54",
-        "to": "LosAngles",
-        "toShort": "LAX",
-        "typeClass": "Business"
+        "to": "Tân Sơn Nhất",
+        "toShort": "SGN",
+        "typeClass": "Thương gia",
+        "status": "SCHEDULED"
       },
       "booking2": {
-        "airlineLogo": "https://res.cloudinary.com/deffwclhn/image/upload/v1743858968/americalAirline_excbp9.png",
-        "airlineName": "American Airlines",
+        "airlineLogo": "https://res.cloudinary.com/deffwclhn/image/upload/v1747106282/logoVietJetAir_c5zll9.png",
+        "airlineName": "VietJet Air",
         "arriveTime": "2h 45m",
         "bookingDate": "16:42 - 03/05/2025",
-        "classSeat": "First class",
-        "date": "01 apr, 2025",
+        "classSeat": "Hạng nhất",
+        "date": "01 may, 2025",
         "flightId": "flight_000",
-        "from": "NewYork",
-        "fromShort": "JFK",
+        "from": "Đà Nẵng",
+        "fromShort": "DAD",
         "price": 341.2,
         "seats": "B2,C2",
         "time": "12:54",
-        "to": "SanFrancisco",
-        "toShort": "LAX",
-        "typeClass": "First"
+        "to": "Phú Quốc",
+        "toShort": "PQC",
+        "typeClass": "Hạng nhất",
+        "status": "COMPLETED"
       },
       "booking3": {
-        "airlineLogo": "https://res.cloudinary.com/dkikc5ywq/image/upload/v1740740063/southwestAirline_zjujlc.png",
-        "airlineName": "Southwest Airlines",
+        "airlineLogo": "https://res.cloudinary.com/deffwclhn/image/upload/v1747106282/logoBambooAirways_vppucy.png",
+        "airlineName": "Bamboo Airways",
         "arriveTime": "2h 45m",
         "bookingDate": "16:42 - 03/05/2025",
-        "classSeat": "Economy class",
+        "classSeat": "Hạng phổ thông",
         "date": "15 may, 2025",
         "flightId": "flight_000",
-        "from": "Chicago",
-        "fromShort": "JFK",
+        "from": "Cát Bi",
+        "fromShort": "HPH",
         "price": 341.2,
         "seats": "B2,C2",
         "time": "12:54",
-        "to": "Miami",
-        "toShort": "LAX",
-        "typeClass": "Economy"
+        "to": "Cà Mau",
+        "toShort": "CAH",
+        "typeClass": "Phổ thông",
+        "status": "DELAYED"
       }
     },
     "yuu_123": {
       "-OOY36RE7SUDu4ovbira": {
-        "airlineLogo": "https://res.cloudinary.com/dkikc5ywq/image/upload/v1740740063/DeltaAirline_cbklxb.png",
-        "airlineName": "Delta Airlines",
+        "airlineLogo": "https://res.cloudinary.com/deffwclhn/image/upload/v1747106282/logoJetstar_w2q5en.png",
+        "airlineName": "Jetstar",
         "arriveTime": "2h 45m",
         "bookingDate": "16:42 - 03/05/2025",
-        "classSeat": "Business class",
-        "date": "01 jun, 2025",
+        "classSeat": "Hạng thương gia",
+        "date": "13 may, 2025",
         "flightId": "flight_000",
-        "from": "NewYork",
-        "fromShort": "JFK",
+        "from": "Vân Đồn",
+        "fromShort": "VDO",
         "price": 341.2,
         "seats": "B2,C2",
-        "time": "12:54",
-        "to": "LosAngles",
-        "toShort": "LAX",
-        "typeClass": "Business"
+        "time": "10:00",
+        "to": "Đồng Hới",
+        "toShort": "VDH",
+        "typeClass": "Thương gia",
+        "status": "IN_FLIGHT"
       },
       "-OOZqfh3R0v3gco0Axeu": {
-        "airlineLogo": "https://res.cloudinary.com/dkikc5ywq/image/upload/v1740740063/DeltaAirline_cbklxb.png",
-        "airlineName": "Delta Airlines",
+        "airlineLogo": "https://res.cloudinary.com/deffwclhn/image/upload/v1747106282/logoVietravelAirlines_ca8gkn.png",
+        "airlineName": "VietTravel Airlines",
         "arriveTime": "2h 45m",
         "bookingDate": "16:42 - 03/05/2025",
-        "classSeat": "Business class",
-        "date": "01 jun, 2025",
+        "classSeat": "Hạng thương gia",
+        "date": "25 may, 2025",
         "flightId": "flight_000",
-        "from": "NewYork",
-        "fromShort": "JFK",
+        "from": "Thọ Xuân",
+        "fromShort": "THD",
         "price": 341.2,
         "seats": "B2,C2",
         "time": "12:54",
-        "to": "LosAngles",
-        "toShort": "LAX",
-        "typeClass": "Business"
+        "to": "Rạch Giá",
+        "toShort": "VKG",
+        "typeClass": "Thương gia",
+        "status": "SCHEDULED"
       },
       "-OOZrHl329wYue4JP1UM": {
-        "airlineLogo": "https://res.cloudinary.com/dkikc5ywq/image/upload/v1740740063/DeltaAirline_cbklxb.png",
-        "airlineName": "Delta Airlines",
+        "airlineLogo": "https://res.cloudinary.com/deffwclhn/image/upload/v1747106282/logoVietNamAirlines_gmjwvb.png",
+        "airlineName": "Vietnam Airlines",
         "arriveTime": "2h 45m",
         "bookingDate": "16:42 - 03/05/2025",
-        "classSeat": "Business class",
-        "date": "01 jun, 2025",
+        "classSeat": "Hạng thương gia",
+        "date": "13 may, 2025",
         "flightId": "flight_000",
-        "from": "NewYork",
-        "fromShort": "JFK",
+        "from": "Điện Biên Phủ",
+        "fromShort": "DIN",
         "price": 341.2,
         "seats": "B2,C2",
         "time": "12:54",
-        "to": "LosAngles",
-        "toShort": "LAX",
-        "typeClass": "Business"
+        "to": "Nội Bài",
+        "toShort": "HAN",
+        "typeClass": "Thương gia",
+        "status": "DELAYED"
       }
     }
   },
   "Flights": [
     {
-      "airlineLogo": "https://res.cloudinary.com/dkikc5ywq/image/upload/v1740740063/DeltaAirline_cbklxb.png",
-      "airlineName": "Delta Airlines",
+      "airlineLogo": "https://res.cloudinary.com/deffwclhn/image/upload/v1747106282/logoVietNamAirlines_gmjwvb.png",
+      "airlineName": "Vietnam Airlines",
       "arriveTime": "2h 45m",
-      "classSeat": "Business class",
-      "date": "01 jun, 2025",
+      "classSeat": "Hạng thương gia",
+      "date": "20 may, 2025",
       "flightId": "flight_000",
-      "from": "NewYork",
-      "fromShort": "JFK",
+      "from": "Nội Bài",
+      "fromShort": "HAN",
       "numberSeat": 79,
       "price": 170.6,
       "reservedSeats": "D1,B3,B3,F6,E4,D1,D5,A6,A8,E7,F9,D11,B4,A1",
       "time": "12:54",
-      "to": "LosAngles",
-      "toShort": "LAX",
-      "typeClass": "Business"
+      "to": "Tân Sơn Nhất",
+      "toShort": "SGN",
+      "typeClass": "Thương gia",
+      "status": "SCHEDULED"
     },
     {
-      "airlineLogo": "https://res.cloudinary.com/deffwclhn/image/upload/v1743858968/americalAirline_excbp9.png",
-      "airlineName": "American Airlines",
+      "airlineLogo": "https://res.cloudinary.com/deffwclhn/image/upload/v1747106282/logoVietJetAir_c5zll9.png",
+      "airlineName": "VietJet Air",
       "arriveTime": "2h 30m",
-      "classSeat": "Business class",
-      "date": "05 jun, 2025",
+      "classSeat": "Hạng thương gia",
+      "date": "01 may, 2025",
       "flightId": "flight_001",
-      "from": "NewYork",
-      "fromShort": "JFK",
+      "from": "Đà Nẵng",
+      "fromShort": "DAD",
       "numberSeat": 92,
       "price": 169.1,
       "reservedSeats": "D1,B2,B3,F3,E2,D1,D5,A6,A1,B1,C1,A4,B4",
       "time": "18:20",
-      "to": "LosAngles",
-      "toShort": "LAX",
-      "typeClass": "Business"
+      "to": "Phú Quốc",
+      "toShort": "PQC",
+      "typeClass": "Thương gia",
+      "status": "COMPLETED"
     },
     {
-      "airlineLogo": "https://res.cloudinary.com/dkikc5ywq/image/upload/v1740740063/southwestAirline_zjujlc.png",
-      "airlineName": "Southwest Airlines",
+      "airlineLogo": "https://res.cloudinary.com/deffwclhn/image/upload/v1747106282/logoBambooAirways_vppucy.png",
+      "airlineName": "Bamboo Airways",
       "arriveTime": "2h 45m",
-      "classSeat": "First class",
-      "date": "10 jun, 2025",
+      "classSeat": "Hạng nhất",
+      "date": "15 may, 2025",
       "flightId": "flight_002",
-      "from": "NewYork",
-      "fromShort": "JFK",
+      "from": "Cát Bi",
+      "fromShort": "HPH",
       "numberSeat": 91,
       "price": 159.1,
       "reservedSeats": "D1,B3,B3,F6,E4,D1,D5,A6,A4,B4",
       "time": "22:45",
-      "to": "LosAngles",
-      "toShort": "LAX",
-      "typeClass": "First"
+      "to": "Cà Mau",
+      "toShort": "CAH",
+      "typeClass": "Hạng nhất",
+      "status": "DELAYED"
     },
     {
-      "airlineLogo": "https://res.cloudinary.com/dkikc5ywq/image/upload/v1740740064/unitedAirline_ra2hya.png",
-      "airlineName": "United Airlines",
+      "airlineLogo": "https://res.cloudinary.com/deffwclhn/image/upload/v1747106282/logoJetstar_w2q5en.png",
+      "airlineName": "Jetstar",
       "arriveTime": "2h 40m",
-      "classSeat": "Economy class",
-      "date": "15 jun, 2025",
+      "classSeat": "Hạng phổ thông",
+      "date": "13 may, 2025",
       "flightId": "flight_003",
-      "from": "NewYork",
-      "fromShort": "JFK",
+      "from": "Vân Đồn",
+      "fromShort": "VDO",
       "numberSeat": 98,
       "price": 157.35,
       "reservedSeats": "D1,B2,B3,F3,E2,D1,D5,A6",
-      "time": "23:05",
-      "to": "LosAngles",
-      "toShort": "LAX",
-      "typeClass": "Economy"
+      "time": "10:00",
+      "to": "Đồng Hới",
+      "toShort": "VDH",
+      "typeClass": "Phổ thông",
+      "status": "IN_FLIGHT"
     }
   ],
   "Locations": [
     {
       "Id": 0,
-      "Name": "LosAngles"
+      "Name": "Tân Sơn Nhất"
     },
     {
       "Id": 1,
-      "Name": "NewYork"
+      "Name": "Nội Bài"
     },
     {
       "Id": 2,
-      "Name": "San Francisco"
+      "Name": "Đà Nẵng"
     },
     {
       "Id": 3,
-      "Name": "Washington, D.C"
+      "Name": "Phú Quốc"
     },
     {
       "Id": 4,
-      "Name": "Boston"
+      "Name": "Cát Bi"
     },
     {
       "Id": 5,
-      "Name": "Philadelphia"
+      "Name": "Cà Mau"
     },
     {
       "Id": 6,
-      "Name": "Chicago"
+      "Name": "Vân Đồn"
     },
     {
       "Id": 7,
-      "Name": "Las Vegas"
+      "Name": "Đồng Hới"
     },
     {
       "Id": 8,
-      "Name": "Miami"
+      "Name": "Thọ Xuân"
     },
     {
       "Id": 9,
-      "Name": "Seattle"
+      "Name": "Rạch Giá"
+    },
+    {
+      "Id": 10,
+      "Name": "Điện Biên Phủ"
     }
   ],
   "Users": {
@@ -224,7 +238,7 @@
       "dateOfBirth": "01/01/2005",
       "email": "adminTBA@gmail.com",
       "fullName": "3B",
-      "gender": "Male",
+      "gender": "Nam",
       "password": "123",
       "phoneNumber": "1234567890",
       "role": "admin",
@@ -234,7 +248,7 @@
       "dateOfBirth": "19/09/2005",
       "email": "dante_123@gmail.com",
       "fullName": "Dante",
-      "gender": "Male",
+      "gender": "Nam",
       "password": "123",
       "phoneNumber": "0987654321",
       "role": "user",
@@ -244,7 +258,7 @@
       "dateOfBirth": "19/09/2005",
       "email": "yuu-kun@gmail.com",
       "fullName": "Yuu",
-      "gender": "Male",
+      "gender": "Nam",
       "password": "123",
       "phoneNumber": "0112267891",
       "role": "user",
