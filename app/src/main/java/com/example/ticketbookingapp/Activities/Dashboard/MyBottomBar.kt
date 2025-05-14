@@ -12,6 +12,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.ticketbookingapp.Activities.BookingHistory.BookingHistoryActivity
 import com.example.ticketbookingapp.Activities.Profile.ProfileActivity
+import com.example.ticketbookingapp.Activities.TopDestinations.TopDestinationsActivity
 import com.example.ticketbookingapp.Domain.UserModel
 import com.example.ticketbookingapp.R
 
@@ -57,10 +58,30 @@ fun MyBottomBar(user: UserModel, currentScreen: String) {
             },
             icon = {
                 Icon(
-                    painter = painterResource(R.drawable.bottom_btn2),
+                    painter = painterResource(R.drawable.bottom_btn3),
                     contentDescription = null,
                     modifier = Modifier.size(24.dp),
                     tint = if (currentScreen == "BookingHistory") colorResource(R.color.lightBlue) else colorResource(R.color.darkBlue)
+                )
+            }
+        )
+
+        NavigationBarItem(
+            selected = currentScreen == "TopTravelDestinations",
+            onClick = {
+                if (currentScreen != "TopTravelDestinations") {
+                    val intent = TopDestinationsActivity.newIntent(context).apply {
+                        putExtra("user", user)
+                    }
+                    context.startActivity(intent)
+                }
+            },
+            icon = {
+                Icon(
+                    painter = painterResource(R.drawable.bottom_btn2),
+                    contentDescription = null,
+                    modifier = Modifier.size(24.dp),
+                    tint = if (currentScreen == "TopTravelDestinations") colorResource(R.color.lightBlue) else colorResource(R.color.darkBlue)
                 )
             }
         )
